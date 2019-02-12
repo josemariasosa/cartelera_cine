@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Mi Casa",
+        "location": {
+            "lat": 20.6733843,
+            "lon": -103.3605137
+        }
+    },
+    {
+        "name": "Mi Refacción Office",
+        "location": {
+            "lat": 20.671902,
+            "lon": -103.371479
+        }
+    },
+    {
+        "name": "IJALTI",
+        "location": {
+            "lat": 20.657353,
+            "lon": -103.397813
+        }
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "_id": "cinepolis-vip-gran-plaza",
+        "zone": "guadalajara-poniente",
+        "location": {
+            "lat": 20.673123,
+            "lon": -103.404133
+        }
+    },
+    {
+        "_id": "cinepolis-plaza-mexico",
+        "zone": "guadalajara-poniente",
+        "location": {
+            "lat": 20.679272,
+            "lon": -103.399202
+        }
+    },
+    {
+        "_id": "cinepolis-vip-galerias",
+        "zone": "guadalajara-poniente",
+        "location": {
+            "lat": 20.677266,
+            "lon": -103.430288
+        }
+    },
+    {
+        "_id": "cinepolis-galerias-guadalajara",
+        "zone": "guadalajara-poniente",
+        "location": {
+            "lat": 20.677266,
+            "lon": -103.430288
+        }
+    },
+    {
+        "_id": "cinepolis-la-gran-plaza",
+        "zone": "guadalajara-poniente",
+        "location": {
+            "lat": 20.673944,
+            "lon": -103.405021
+        }
+    },
+    {
+        "_id": "cinepolis-ciudadela-lifestyle-center",
+        "zone": "guadalajara-poniente",
+        "location": {
+            "lat": 20.649600,
+            "lon": -103.419200
+        }
+    },
+    {
+        "_id": "cinepolis-centro-magno",
+        "zone": "guadalajara-poniente",
+        "location": {
+            "lat": 20.673851,
+            "lon": -103.381027
+        }
+    },
+    {
+        "_id": "cinepolis-arboledas",
+        "zone": "guadalajara-poniente",
+        "location": {
+            "lat": 20.648249,
+            "lon": -103.386619
+        }
+    },
+    {
+        "_id": "cinepolis-tolsa",
+        "zone": "guadalajara-centro",
+        "location": {
+            "lat": 20.670744,
+            "lon": -103.359628
+        }
+    },
+    {
+        "_id": "cinepolis-la-normal",
+        "zone": "guadalajara-centro",
+        "location": {
+            "lat": 20.695129,
+            "lon": -103.349724
+        }
+    },
+    {
+        "_id": "cinepolis-alameda-guadalajara",
+        "zone": "guadalajara-centro",
+        "location": {
+            "lat": 20.674474,
+            "lon": -103.341906
+        }
+    },
+    {
+        "_id": "cinepolis-punto-oriente",
+        "zone": "guadalajara-norte",
+        "location": {
+            "lat": 20.679235,
+            "lon": -103.291213
+        }
+    },
+    {
+        "_id": "cinepolis-oblatos",
+        "zone": "guadalajara-norte",
+        "location": {
+            "lat": 20.687487,
+            "lon": -103.294978
+        }
+    },
+    {
+        "_id": "cinepolis-independencia",
+        "zone": "guadalajara-norte",
+        "location": {
+            "lat": 20.720067,
+            "lon": -103.319976
+        }
+    },
+    {
+        "_id": "cinepolis-real-center",
+        "zone": "guadalajara-norte-poniente",
+        "location": {
+            "lat": 20.732526,
+            "lon": -103.428769
+        }
+    },
+    {
+        "_id": "cinepolis-vip-midtown-jalisco",
+        "zone": "guadalajara-norte-poniente",
+        "location": {
+            "lat": 20.693950,
+            "lon": -103.374782
+        }
+    },
+    {
+        "_id": "cinepolis-vip-andares",
+        "zone": "guadalajara-norte-poniente",
+        "location": {
+            "lat": 20.711970,
+            "lon": -103.411018
+        }
+    },
+    {
+        "_id": "cinepolis-pabellon",
+        "zone": "guadalajara-norte-poniente",
+        "location": {
+            "lat": 20.709429,
+            "lon": -103.406095
+        }
+    },
+    {
+        "_id": "cinepolis-gran-terraza-belenes",
+        "zone": "guadalajara-norte-poniente",
+        "location": {
+            "lat": 20.738866,
+            "lon": -103.401386
+        }
+    },
+    {
+        "_id": "cinepolis-las-torres",
+        "zone": "guadalajara-sur",
+        "location": {
+            "lat": 20.648678,
+            "lon": -103.362075
+        }
+    },
+    {
+        "_id": "cinepolis-centro-sur",
+        "zone": "guadalajara-sur",
+        "location": {
+            "lat": 20.601184,
+            "lon": -103.401807
+        }
+    },
+    {
+        "_id": "cinepolis-santa-anita-la-rioja",
+        "zone": "guadalajara-sur",
+        "location": {
+            "lat": 20.570485,
+            "lon": -103.457100
+        }
+    }
+]
