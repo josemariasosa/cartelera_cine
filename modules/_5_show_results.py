@@ -88,16 +88,20 @@ class PrintMovies(object):
         i = 0
         for near in nearest:
             i += 1
-            print 'Option **************** {} *************************'.format(i)
-            print 'Title ES: \t\t{}'.format(near['title'].encode('utf-8'))
-            print 'Original Title: \t{}'.format(near['original'].encode('utf-8'))
-            print 'Movie starts today at: \t{}'.format(near['time'])
-            print '\nIf you leave now, you will arrive on time:'
-            print 'Location: \t\t{}'.format(self.formatLocation(near['_id']))
-            print 'Waiting in Traffic: \t{} minutes'.format(near['minutes'])
-            print 'Waiting at Theatre: \t{} minutes'.format(near['waiting'])
+            messages = [
+                'Option **************** {} *************************'.format(i),
+                'Title ES: \t\t{}'.format(near['title'].encode('utf-8')),
+                'Original Title: \t{}'.format(near['original'].encode('utf-8')),
+                'Movie starts today at: \t{}'.format(near['time']),
+                '\nIf you leave now, you will arrive on time:',
+                'Location: \t\t{}'.format(self.formatLocation(near['_id'])),
+                'Waiting in Traffic: \t{} minutes'.format(near['minutes']),
+                'Waiting at Theatre: \t{} minutes'.format(near['waiting']),
+                '---------------------------------------------------\n\n'
+            ]
 
-            print '---------------------------------------------------\n\n'
+            for message in messages:
+                print(message)
 
         return None
 

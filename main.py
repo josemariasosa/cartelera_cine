@@ -23,8 +23,8 @@ def main():
 
     message = "Type the index for a desired current location: "
     for i, loc in enumerate(locations):
-        print "{} ".format(i), loc['name']
-    option = raw_input(message)
+        print ("{} ".format(i), loc['name'])
+    option = input(message)
 
     if (option.isdigit()) and (option in [str(x) for x in range(len(locations))]):
         option = int(option)

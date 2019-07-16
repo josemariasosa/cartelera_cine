@@ -25,14 +25,14 @@ class Cinepolis(object):
 
     def getUrlHtml(self, url):
 
-            with Browser('chrome', headless=True) as browser:
+            with Browser('chrome', headless=False) as browser:
 
                 browser.visit(url)
                 time.sleep(5)
 
                 script = "return document.body.innerHTML"
                 innerHTML = browser.execute_script(script)
-                innerHTML = innerHTML.encode('utf-8') 
+                # innerHTML = innerHTML.encode('utf-8') # Only in Python 2.7
 
                 with open('files/movies.txt', 'w') as f:
                     f.write(innerHTML)
@@ -67,7 +67,7 @@ class Cinepolis(object):
 
         with open('files/movies.txt', 'r') as f:
             movies = f.read()
-            movies = movies.decode('utf-8')
+            # movies = movies.decode('utf-8') # Only in Python 2.7
 
         soup = bs.BeautifulSoup(movies, 'lxml')
 
