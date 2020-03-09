@@ -6,6 +6,12 @@ Get the nearest movies in a Cinépolis Theatre, of any given position expressed 
 
 **Important!** be sure that `chromedriver` is installed, check: http://chromedriver.chromium.org/.
 
+Or try the command to install:
+
+```bash
+brew cask install chromedriver
+```
+
 Always check for new chromedriver updates!
 
 ```bash
